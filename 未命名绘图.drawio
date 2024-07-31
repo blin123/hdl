@@ -139,17 +139,38 @@
         <mxCell id="yvpYBFrj47WIfBBR2a_V-49" value="Jump to Debug Rom Entry&amp;nbsp;&lt;div&gt;and&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;set halted_flag&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="550" y="1180" width="170" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="yvpYBFrj47WIfBBR2a_V-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="yvpYBFrj47WIfBBR2a_V-52" target="yvpYBFrj47WIfBBR2a_V-53">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="yvpYBFrj47WIfBBR2a_V-52" value="Debugger Abstract Access" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="710" y="1200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yvpYBFrj47WIfBBR2a_V-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="yvpYBFrj47WIfBBR2a_V-53" target="yvpYBFrj47WIfBBR2a_V-55">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="yvpYBFrj47WIfBBR2a_V-53" value="Debugger&amp;nbsp;&lt;div&gt;Configure dcsr.step=1&amp;nbsp;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="710" y="1110" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="yvpYBFrj47WIfBBR2a_V-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="yvpYBFrj47WIfBBR2a_V-55" target="yvpYBFrj47WIfBBR2a_V-56">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="yvpYBFrj47WIfBBR2a_V-55" value="Debugger Send&lt;div&gt;Resume&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="710" y="1014" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="yvpYBFrj47WIfBBR2a_V-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="yvpYBFrj47WIfBBR2a_V-56" target="yvpYBFrj47WIfBBR2a_V-55">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="890" y="1040" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="930" y="947" />
+              <mxPoint x="930" y="1044" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="yvpYBFrj47WIfBBR2a_V-56" value="Core execute single Instruction" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="710" y="917" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yvpYBFrj47WIfBBR2a_V-58" value="Jump to Debug Rom Entry&amp;nbsp;&lt;div&gt;and&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;set halted_flag&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="830" y="900" width="170" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
