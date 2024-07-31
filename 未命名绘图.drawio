@@ -124,9 +124,13 @@
         <mxCell id="yvpYBFrj47WIfBBR2a_V-43" value="Debugger Send Resume" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="410" y="1110" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="yvpYBFrj47WIfBBR2a_V-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="yvpYBFrj47WIfBBR2a_V-44">
+        <mxCell id="yvpYBFrj47WIfBBR2a_V-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="yvpYBFrj47WIfBBR2a_V-44" target="yvpYBFrj47WIfBBR2a_V-52">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="770" y="1230" as="targetPoint" />
+            <mxPoint x="750" y="1230" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="620" y="1230" />
+              <mxPoint x="770" y="1231" />
+            </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="yvpYBFrj47WIfBBR2a_V-44" value="Core Trigger" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -136,7 +140,16 @@
           <mxGeometry x="550" y="1180" width="170" height="40" as="geometry" />
         </mxCell>
         <mxCell id="yvpYBFrj47WIfBBR2a_V-52" value="Debugger Abstract Access" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="770" y="1200" width="120" height="60" as="geometry" />
+          <mxGeometry x="710" y="1200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yvpYBFrj47WIfBBR2a_V-53" value="Debugger&amp;nbsp;&lt;div&gt;Configure dcsr.step=1&amp;nbsp;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="710" y="1110" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yvpYBFrj47WIfBBR2a_V-55" value="Debugger Send&lt;div&gt;Resume&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="710" y="1010" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yvpYBFrj47WIfBBR2a_V-56" value="Core execute single Instruction" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="710" y="910" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
