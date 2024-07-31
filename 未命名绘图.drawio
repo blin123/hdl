@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36" version="24.7.6">
   <diagram name="Page-1" id="58cdce13-f638-feb5-8d6f-7d28b1aa9fa0">
-    <mxGraphModel dx="1195" dy="652" grid="0" gridSize="10" guides="0" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
+    <mxGraphModel dx="1195" dy="652" grid="1" gridSize="10" guides="0" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -106,8 +106,37 @@
         <mxCell id="yvpYBFrj47WIfBBR2a_V-39" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;Signle Step&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;Trigger&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;ebreak&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="64" y="364" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="yvpYBFrj47WIfBBR2a_V-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="yvpYBFrj47WIfBBR2a_V-41" target="yvpYBFrj47WIfBBR2a_V-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="yvpYBFrj47WIfBBR2a_V-41" value="Debugger Halt Req" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="338" y="908" width="120" height="60" as="geometry" />
+          <mxGeometry x="410" y="919" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yvpYBFrj47WIfBBR2a_V-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="yvpYBFrj47WIfBBR2a_V-42" target="yvpYBFrj47WIfBBR2a_V-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yvpYBFrj47WIfBBR2a_V-42" value="Debugger C&lt;span style=&quot;white-space: pre;&quot; data-slate-fragment=&quot;JTVCJTdCJTIydHlwZSUyMiUzQSUyMnBhcmFncmFwaCUyMiUyQyUyMmNoaWxkcmVuJTIyJTNBJTVCJTdCJTIydGV4dCUyMiUzQSUyMmNvbmZpZ3VyZSUyMiU3RCU1RCU3RCU1RA==&quot;&gt;onfigure&lt;/span&gt;&amp;nbsp;Trigger Register" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="410" y="1010" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yvpYBFrj47WIfBBR2a_V-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="yvpYBFrj47WIfBBR2a_V-43" target="yvpYBFrj47WIfBBR2a_V-44">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yvpYBFrj47WIfBBR2a_V-43" value="Debugger Send Resume" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="410" y="1110" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yvpYBFrj47WIfBBR2a_V-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="yvpYBFrj47WIfBBR2a_V-44">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="770" y="1230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yvpYBFrj47WIfBBR2a_V-44" value="Core Trigger" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="410" y="1200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yvpYBFrj47WIfBBR2a_V-49" value="Jump to Debug Rom Entry&amp;nbsp;&lt;div&gt;and&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;set halted_flag&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="550" y="1180" width="170" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="yvpYBFrj47WIfBBR2a_V-52" value="Debugger Abstract Access" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="770" y="1200" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
