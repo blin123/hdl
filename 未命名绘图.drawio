@@ -146,10 +146,10 @@
           <mxGeometry x="710" y="1110" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="yvpYBFrj47WIfBBR2a_V-55" value="Debugger Send&lt;div&gt;Resume&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="710" y="1010" width="120" height="60" as="geometry" />
+          <mxGeometry x="710" y="1014" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="yvpYBFrj47WIfBBR2a_V-56" value="Core execute single Instruction" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="710" y="910" width="120" height="60" as="geometry" />
+          <mxGeometry x="710" y="917" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
